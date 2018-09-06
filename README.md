@@ -1,43 +1,30 @@
-# zx-ui
+# y
 
-> Some mobile terminal UI components based on Vue include forms, lists, shells, buttons, tabs, etc
+> A Vue.js project
 
-## component
+## Build Setup
 
 ``` bash
-# button
-# input
-# cell
-# dialog
-# form 
-# tab
-# select
-# radio
-# checkbox
-# popup
-
-```
-## Install
-``` bash
-npm install zx-ui -S
-```
-## Quick Start
-``` bash
-import Vue from 'vue'
-import Zxui from 'zx-ui'
-import 'zx-ui/lib/zxhuan.css' 
-Vue.use(Zxui)
-```
-## Look at Examples
-```
-git clone https://github.com/zxhuan/zx-ui.git
-cd zx-ui
+# install dependencies
 npm install
-npm run start
-```
-## View the document
-```
-https://zxhuan.github.io/
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

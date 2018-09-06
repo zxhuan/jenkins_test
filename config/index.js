@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://zxhuan.github.io/eg/',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
