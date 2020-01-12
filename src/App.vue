@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <h2>你好陌生人，会不会奇怪</h2>
     <router-view/>
   </div>
 </template>
